@@ -15,7 +15,7 @@
         <p class="mt-2 theme-p">or call us at <a class="theme-h3 hover:underline" href="Tel: 239-200-0912">(239) 200-0912</a>.</p>
     </div>
     <div class="w-[282px] md:w-[572px] lg:w-[862px] flex flex-col md:flex-row gap-4 mx-4">
-            <video src="pool-cleaning.webm" class="shadow-lg object-none w-[281px] h-[470px]" playsinline autoplay muted loop />
+            <video src="pool-cleaning.mov" class="shadow-lg object-none w-[281px] h-[470px]" playsinline autoplay muted loop />
         <div class="mt-4">
             <h1 class="theme-h2">What is {shortName}</h1>
             <p class="theme-p max-w-[500px]">{shortName} was started to be more than a white glove pressure washing service. We aim to create high paying specialist jobs in the Naples/ Marco Island/ Bonita Springs area.</p>
@@ -48,6 +48,7 @@
 
     video {
         border-radius: var(--rounded-container);
+        background-color: var(--color-bg-300);
     }
 
     img {
