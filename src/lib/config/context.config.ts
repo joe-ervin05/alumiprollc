@@ -1,6 +1,9 @@
 import colors from "./colors";
 
 const logoUrl = 'logo.jpg';
+const receiveEmail = 'dolphinpressurewashingllc@gmail.com';
+const shortName = 'Dolphin';
+const fullName = 'Dolphin Pressure Washing LLC';
 const variables = {
     color: {
         text: colors.gray,
@@ -19,15 +22,24 @@ const variables = {
     }
 }
 
+const nav = [
+    { href:"/book", name:"Book" },
+    { href:"/contact", name:"Contact" },
+]
+
 const theme = {
     variables
 }
 
 const config = {
     logoUrl,
+    shortName,
+    fullName,
+    receiveEmail,
+    nav,
     theme
 }
 
 export default config;
-export { logoUrl, variables, theme };
+export { logoUrl, variables, theme, nav, receiveEmail, shortName, fullName };
 

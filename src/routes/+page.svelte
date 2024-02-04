@@ -9,8 +9,8 @@
 </script>
 
 <section class="flex flex-col gap-8 items-center justify-center">
-    <div class="max-w-[600px] mx-4">
-        <h1 class="theme-hero-text">Premium washing services</h1>
+    <div class="w-[282px] sm:w-[572px]">
+        <h1 class="theme-h1">Premium washing services</h1>
         <p class="theme-p">We believe in honesty, service, and quality work. It makes a tremendous difference when you care about the work you are doing.</p>
     </div>
     <div>
@@ -20,7 +20,7 @@
     <div class="w-[282px] sm:w-[572px] lg:w-[862px] flex flex-col sm:flex-row gap-4 mx-4">
         <video src="poolvid.mp4" class="shadow-lg h-[500px]" autoplay muted loop/>
         <div class="mt-4">
-            <h3 class="theme-h1 whitespace-nowrap">What is Dolphin</h3>
+            <h1 class="theme-h1 whitespace-nowrap">What is Dolphin</h1>
             <p class="theme-p max-w-[500px]">Dolphin was started to be more than a white glove pressure washing service. We aim to create high paying specialist jobs in the Naples/ Marco Island/ Bonita Springs area.</p>
         </div>
     </div>

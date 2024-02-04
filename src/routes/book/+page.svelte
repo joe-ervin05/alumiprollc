@@ -4,7 +4,7 @@
 	import Input from "$lib/components/Input.svelte";
   import Card from "$lib/components/Card.svelte";
 	import Select from "$lib/components/Select.svelte";
-	import { slide } from "svelte/transition";
+	import { fade, slide } from "svelte/transition";
 	import TextArea from "$lib/components/TextArea.svelte";
 
   let loading = false;
@@ -31,7 +31,6 @@
 
   let service = options[0];
 
-  $: console.log(service);
 </script>
 
 <section class="flex justify-center">
@@ -79,7 +78,13 @@
         <label for="Comments" class="block theme-p">Comments</label>
         <TextArea placeholder="Add any extra details here." name="Comments" />
       </div>
-      <Button>Submit</Button>
+      {#if form?.success}
+          <p transition:fade class="theme-p !text-green-500 max-w-[300px] text-center">Thanks for reaching out! We will get back soon.</p>
+      {:else if form?.error}
+          <p transition:fade class="theme-p !text-red-500">{form.error}</p>
+      {:else}
+          <Button bind:loading>Submit</Button>
+      {/if}
     </form>
   </Card>
 </section>
