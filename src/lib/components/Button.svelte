@@ -1,0 +1,80 @@
+<script lang="ts">
+
+    export let loading = false;
+    export let href : string | null = null;
+    export let textClass = '';
+
+</script>
+
+{#if href}
+    <a {href} {...$$restProps} class="btn {$$props.class} {loading ? 'loading' : ''}">
+        <div class="btn-spinner"/>
+        <span class="btn-text {textClass}"><slot/></span>
+    </a>
+{:else}
+    <button {...$$restProps} on:click class="btn {$$props.class} {loading ? 'loading' : ''}">
+        <div class="btn-spinner"/>
+        <span class="btn-text {textClass}"><slot/></span>
+    </button>
+{/if}
+
+<style>
+    .btn-spinner {
+        display: none;
+    }
+
+    .loading {
+        pointer-events: none;
+    }
+
+    .loading .btn-spinner {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border: 5px solid transparent;
+        border-radius: 50%;
+        border-top: 5px solid var(--color-text-50);
+        animation: spin 1.2s infinite;
+    }
+
+    @keyframes spin {
+        0% { rotate: 180deg; }
+        100% { rotate: 540deg; }
+    }
+
+    .loading .btn-text {
+        display: none;
+    }
+
+    .btn-text {
+        color: var(--color-text-50);
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 42px;
+        width: 300px;
+        border-radius: var(--rounded-button);
+        background-color: var(--color-primary-500);
+        transition: all 300ms;
+    }
+
+    .btn:hover {
+        background-color: var(--color-primary-600);
+        transform: scale(1.02);
+    }
+
+    .btn:active {
+        transform: scale(0.99);
+    }
+
+    :global(.dark) .btn {
+        background-color: var(--color-primary-400)
+    }
+
+    :global(.dark) .btn:hover {
+        background-color: var(--color-primary-500);
+    }
+</style>

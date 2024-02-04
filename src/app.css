@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: var(--font-text);
+    color: var(--color-text-900);
+}
+
+.dark * {
+    color: var(--color-text-50);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text-900);
+}
+
+.dark a {
+    color: var(--color-text-50);
+}
+
+img {
+    background-color: var(--color-bg-300);
+}
+
+.dark img {
+    background-color: var(--color-bg-600);
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.theme-hero-text {
+    font-size: 32px;
+    font-family: var(--font-header);
+    color: var(--color-text-900);
+    font-weight: 700;
+}
+
+.dark .theme-hero-text {
+    color: var(--color-text-50);
+}
+
+.theme-h1 {
+    font-size: 36px;
+    font-family: var(--font-header);
+    color: var(--color-text-900);
+    font-weight: 700;
+}
+
+.dark .theme-h1 {
+    color: var(--color-text-50);
+}
+
+.theme-h2 {
+    font-size: 28px;
+    font-family: var(--font-header);
+    color: var(--color-text-900);
+    font-weight: 700;
+}
+
+.dark .theme-h2 {
+    color: var(--color-text-50);
+}
+
+.theme-h3 {
+    font-size: 24px;
+    font-family: var(--font-header);
+    color: var(--color-text-900);
+    font-weight: 700;
+}
+
+.dark .theme-h3 {
+    color: var(--color-text-50);
+}
+
+.theme-h4 {
+    font-size: 24px;
+    font-family: var(--font-header);
+    color: var(--color-text-900);
+}
+
+.dark .theme-h4 {
+    color: var(--color-text-50);
+}
+
+.theme-p {
+    font-size: 18px;
+    font-family: var(--font-text);
+    color: var(--color-text-600);
+}
+
+.dark .theme-p {
+    color: var(--color-text-300);
+}
+
+@media screen and (min-width: 640px) {
+    .theme-hero-text {
+        font-size: 44px;
+    }
+}
