@@ -6,7 +6,6 @@
 	import Select from "$lib/components/Select.svelte";
 	import { slide } from "svelte/transition";
 	import TextArea from "$lib/components/TextArea.svelte";
-	import PhoneInput from "$lib/components/PhoneInput.svelte";
 
   let loading = false;
 
@@ -64,7 +63,7 @@
       </div>
       <div>
         <label for="Address" class="block theme-p">Address</label>
-        <Input type="text" name="Address" />
+        <Input type="text" placeholder="Your home address" required name="Address" />
       </div>
       <div>
         <label for="Service requested" class="block theme-p">Service needed</label>
@@ -78,7 +77,7 @@
       {/if}
       <div>
         <label for="Comments" class="block theme-p">Comments</label>
-        <TextArea required placeholder="Add any extra details here." name="Comments" />
+        <TextArea placeholder="Add any extra details here." name="Comments" />
       </div>
       <Button>Submit</Button>
     </form>

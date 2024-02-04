@@ -27,7 +27,7 @@ class="theme-input">
     .theme-input:focus {
         outline: none;
         border: 1px solid var(--color-secondary-500);
-        box-shadow: var(--color-secondary-500) 0px 0px 3px, var(--color-secondary-500) 0px 0px 0px 3px;
+        box-shadow: 0 0 0 3px var(--color-secondary-500);
     }
 
     :global(.dark) .theme-input:focus {
