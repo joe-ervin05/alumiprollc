@@ -2,6 +2,7 @@
     import Button from "$lib/components/Button.svelte";
 	import Input from "$lib/components/Input.svelte";
 	import TextArea from "$lib/components/TextArea.svelte";
+	import { shortName } from "$lib/config/context.config";
 
     let loading = false
 
@@ -17,11 +18,11 @@
         <Button href="/book">Book now</Button>
         <p class="mt-2 theme-p">or call us at <a class="theme-h3 hover:underline" href="Tel: 239-200-0912">(239) 200-0912</a>.</p>
     </div>
-    <div class="w-[282px] sm:w-[572px] lg:w-[862px] flex flex-col sm:flex-row gap-4 mx-4">
+    <div class="w-[282px] md:w-[572px] lg:w-[862px] flex flex-col md:flex-row gap-4 mx-4">
         <video src="poolvid.mp4" class="shadow-lg h-[500px]" autoplay muted loop/>
         <div class="mt-4">
-            <h1 class="theme-h1 whitespace-nowrap">What is Dolphin</h1>
-            <p class="theme-p max-w-[500px]">Dolphin was started to be more than a white glove pressure washing service. We aim to create high paying specialist jobs in the Naples/ Marco Island/ Bonita Springs area.</p>
+            <h1 class="theme-h2">What is {shortName}</h1>
+            <p class="theme-p max-w-[500px]">{shortName} was started to be more than a white glove pressure washing service. We aim to create high paying specialist jobs in the Naples/ Marco Island/ Bonita Springs area.</p>
         </div>
     </div>
     <header class="text-center mb-4">

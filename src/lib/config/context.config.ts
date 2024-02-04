@@ -2,7 +2,7 @@ import colors from "./colors";
 
 const logoUrl = 'logo.jpg';
 const receiveEmail = 'dolphinpressurewashingllc@gmail.com';
-const shortName = 'Dolphin';
+const shortName = 'Dolphin Pressure Washing';
 const fullName = 'Dolphin Pressure Washing LLC';
 const variables = {
     color: {
