@@ -43,7 +43,7 @@ button {
 }
 
 .theme-hero-text {
-    font-size: 32px;
+    font-size: 36px;
     font-family: var(--font-header);
     color: var(--color-text-900);
     font-weight: 700;
@@ -54,7 +54,7 @@ button {
 }
 
 .theme-h1 {
-    font-size: 36px;
+    font-size: 28px;
     font-family: var(--font-header);
     color: var(--color-text-900);
     font-weight: 700;
@@ -65,7 +65,7 @@ button {
 }
 
 .theme-h2 {
-    font-size: 28px;
+    font-size: 24px;
     font-family: var(--font-header);
     color: var(--color-text-900);
     font-weight: 700;
@@ -76,7 +76,7 @@ button {
 }
 
 .theme-h3 {
-    font-size: 24px;
+    font-size: 20px;
     font-family: var(--font-header);
     color: var(--color-text-900);
     font-weight: 700;
@@ -87,7 +87,7 @@ button {
 }
 
 .theme-h4 {
-    font-size: 24px;
+    font-size: 20px;
     font-family: var(--font-header);
     color: var(--color-text-900);
 }
@@ -109,5 +109,17 @@ button {
 @media screen and (min-width: 640px) {
     .theme-hero-text {
         font-size: 44px;
+    }
+    .theme-h1 {
+        font-size: 36px;
+    }
+    .theme-h2 {
+        font-size: 28px;
+    }
+    .theme-h3 {
+        font-size: 24px;
+    }
+    .theme-h4 {
+        font-size: 24px;
     }
 }
