@@ -81,7 +81,7 @@
       {#if form?.success}
           <p transition:fade class="theme-p !text-green-500 max-w-[300px] text-center">Thanks for reaching out! We will get back soon.</p>
       {:else if form?.error}
-          <p transition:fade class="theme-p !text-red-500">{form.error}</p>
+          <p transition:fade class="theme-p !text-red-500 max-w-[300px] text-center">{form.error}</p>
       {:else}
           <Button bind:loading>Submit</Button>
       {/if}

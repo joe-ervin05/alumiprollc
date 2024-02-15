@@ -4,6 +4,7 @@
 	import Button from './Button.svelte';
     import { navigating } from '$app/stores';
     import { nav } from '$lib/config/context.config';
+	import ButtonSm from './ButtonSm.svelte';
 
     let menu = false;
 
@@ -13,7 +14,7 @@
 <nav>
     <div class="nav-main">
         <a class="navbrand" href="/">
-            <img src={logoUrl} alt="dolphin logo" width="170px">
+            <img src={logoUrl} alt="dolphin logo">
         </a>
         <ul class="nav-ul">
             {#each nav as { href, name }}
@@ -21,7 +22,7 @@
             {/each}
         </ul>
         <div class="cta">
-            <Button class="!w-[80px] !h-[38px] !rounded-md" textClass=" !text-sm" href="/book">Book us</Button>
+            <ButtonSm href='/book'>Book us</ButtonSm>
             <button class="menu-btn" on:click={() => menu = !menu}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
                     {#if menu}

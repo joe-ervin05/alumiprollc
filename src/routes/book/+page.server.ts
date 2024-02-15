@@ -16,7 +16,7 @@ export const actions = {
         }
 
         const { data, error } = await resend.emails.send({
-            from: `${shortName} Contact <noreply@quizit.app>`,
+            from: `${shortName} Contact <noreply@traceui.com>`,
             to: [receiveEmail],
             subject: `New ${shortName} contact submission`,
             html,
