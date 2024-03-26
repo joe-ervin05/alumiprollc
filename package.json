@@ -28,6 +28,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"fathom-client": "^3.6.0",
 		"resend": "^3.1.0",
 		"sass": "^1.70.0",
 		"svelte-tel-input": "^3.3.9"

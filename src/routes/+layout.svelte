@@ -5,8 +5,22 @@
     import { getThemeCss } from '$lib/util/site';
 	import { loadGoogleFonts } from '$lib/util/css';
 	import { onMount } from 'svelte';
+    import { PUBLIC_FATHOM_URL, PUBLIC_FATHOM_ID } from "$env/static/public";
+    import * as Fathom from 'fathom-client';
     import Navbar from '$lib/components/Navbar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import { browser } from '$app/environment';
+	import { page } from '$app/stores';
+
+    onMount(async () => {
+        Fathom.load(PUBLIC_FATHOM_ID, {
+            url: PUBLIC_FATHOM_URL
+        })
+    })
+
+    $: if (browser && $page.url.pathname) {
+         Fathom.trackPageview();
+    }
 </script>
 
 <svelte:head>
