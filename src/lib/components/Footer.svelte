@@ -15,9 +15,6 @@
         <li>
           <a href="/privacy" class="hover:underline mr-6 mb-6">Privacy Policy</a>
         </li>
-        <li>
-          <a href="/terms" class="hover:underline mr-6 mb-6"> Terms of Service</a>
-        </li>
       </ul>
       <span class="!text-sm sm:text-center theme-p"
         >&copy; 2024 <a href="/" class="hover:underline theme-p">{fullName}</a>. All Rights

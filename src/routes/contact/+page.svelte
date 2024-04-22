@@ -22,7 +22,6 @@
         <p class="text-center theme-p">
           Thanks for taking the time to reach out! We Will get back to you as soon as possible.
         </p>
-        <p class="text-center">You can also call us at <a href="Tel:239-200-0912" class="font-bold">(239) 200-0912</a>.</p>
       </div>
       <form
         class="space-y-2 flex flex-col items-center"

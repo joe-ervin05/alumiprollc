@@ -25,6 +25,8 @@
 
 <svelte:head>
     <link href={loadGoogleFonts(config.theme.variables.font)} rel="stylesheet">
+    <link rel="icon" href={config.logoUrl} />
+    <title>{config.shortName}</title>
 </svelte:head>
 <div class="min-h-screen content" style={getThemeCss(config.theme)}>
     <Navbar/>

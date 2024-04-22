@@ -1,24 +1,24 @@
 import colors from "./colors";
 
-const logoUrl = 'logo.jpg';
-const receiveEmail = 'dolphinpressurewashingllc@gmail.com';
-const shortName = 'Dolphin Pressure Washing';
-const fullName = 'Dolphin Pressure Washing LLC';
+const logoUrl = 'logo.svg';
+const receiveEmail = 'alumiprollc@gmail.com';
+const shortName = 'Alumi Pro';
+const fullName = 'Alumi Pro LLC';
 const variables = {
     color: {
         text: colors.gray,
         bg: colors.gray,
-        primary: colors.dolphin,
-        secondary: colors.orangepunch
+        primary: colors.deepblue,
+        secondary: colors.neon
     },
     font: {
-        header: 'Inter',
-        text: 'Poppins'
+        header: 'Rubik',
+        text: 'Inter'
     },
     rounded: {
-        container: '6px',
-        input: '10px',
-        button: '10px'
+        container: '12px',
+        input: '12px',
+        button: '9999px'
     }
 }
 

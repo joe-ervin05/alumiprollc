@@ -24,14 +24,6 @@ a {
     color: var(--color-text-50);
 }
 
-img {
-    background-color: var(--color-bg-300);
-}
-
-.dark img {
-    background-color: var(--color-bg-600);
-}
-
 ul {
     list-style: none;
 }

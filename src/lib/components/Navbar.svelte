@@ -14,7 +14,7 @@
 <nav>
     <div class="nav-main">
         <a class="navbrand" href="/">
-            <img src={logoUrl} alt="dolphin logo">
+            <img src={logoUrl} width="200px" alt="dolphin logo">
         </a>
         <ul class="nav-ul">
             {#each nav as { href, name }}
