@@ -22,7 +22,7 @@
             {/each}
         </ul>
         <div class="cta">
-            <ButtonSm href='/book'>Book us</ButtonSm>
+            <ButtonSm class="!w-[100px]" href='/book'>Get Started</ButtonSm>
             <button class="menu-btn" on:click={() => menu = !menu}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
                     {#if menu}
@@ -76,7 +76,7 @@
     }
 
     .nav-ul li {
-        font-size: 16px;
+        font-size: 18px;
         white-space: nowrap;
         color: var(--color-text-600);
     }

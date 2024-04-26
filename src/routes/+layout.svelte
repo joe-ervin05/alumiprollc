@@ -30,9 +30,7 @@
 </svelte:head>
 <div class="min-h-screen content" style={getThemeCss(config.theme)}>
     <Navbar/>
-    <div class="py-24">
         <slot/>
-    </div>
     <Footer />
 </div>
 

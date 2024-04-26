@@ -9,11 +9,12 @@ const variables = {
         text: colors.gray,
         bg: colors.gray,
         primary: colors.deepblue,
-        secondary: colors.neon
+        secondary: colors.neon,
+        accent: colors.mountain
     },
     font: {
-        header: 'Rubik',
-        text: 'Inter'
+        header: 'Ubuntu',
+        text: 'Ubuntu',
     },
     rounded: {
         container: '12px',
@@ -23,7 +24,8 @@ const variables = {
 }
 
 const nav = [
-    { href:"/book", name:"Book" },
+    { href: "/about", name:"About"},
+    { href:"/estimate", name:"Estimates" },
     { href:"/contact", name:"Contact" },
 ]
 
