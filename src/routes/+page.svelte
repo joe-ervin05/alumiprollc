@@ -37,7 +37,7 @@
         {/if}
     </div>
     {#if ready}
-    <div class="z-20 flex flex-col py-8 sm:py-0 items-center sm:absolute top-[calc(50%-148px)] bottom-0 right-0 left-0">
+    <div class="z-20 flex flex-col py-8 sm:py-0 mx-4 items-center sm:absolute top-[calc(50%-148px)] bottom-0 right-0 left-0">
         <h1><span transition:fade class="text-[44px] font-bold leading-relaxed sm:!text-slate-50">Alumi Pro LLC</span></h1>
         <h2 class="theme-h3 sm:!text-slate-200 mt-4">Professional Aluminum Contractors</h2>
         <h3 transition:fade={{ delay: 600 }} class="text-[23px] pb-2 sm:!text-slate-300 max-w-[500px] mt-4">Screen enclosures, rescreens/repairs, hurricane shutters, seamless gutters.</h3>
