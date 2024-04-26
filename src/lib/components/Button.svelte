@@ -99,7 +99,7 @@
         justify-content: center;
         align-items: center;
         height: 42px;
-        width: 260px;
+        width: 280px;
         border-radius: var(--rounded-button);
         background-color: var(--color-accent-700);
         transition: all 300ms;
