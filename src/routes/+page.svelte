@@ -87,11 +87,6 @@
         <img src="entry4.webp" class="rounded-md shadow-md w-[318px]" alt="">
     </div>
 </section>
-<section class="py-8 sm:py-24">
-    <h1 class="theme-h1 text-center mb-8">Railings</h1>
-    <div class="flex justify-center flex-wrap mx-4 gap-2">
-    </div>
-</section>
 
 <style>
 
