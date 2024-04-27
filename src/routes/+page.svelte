@@ -52,10 +52,10 @@
     {/if}
 </section>
 <section class="gap-2 flex flex-wrap justify-center py-8">
-    <Card class="!w-[240px] flex justify-center" href="/estimate?work=Screen%20enclosures">Screen enclosures</Card>
-    <Card class="!w-[240px] flex justify-center" href="/estimate?work=Rescreening">Rescreens/repairs</Card>
-    <Card class="!w-[240px] flex justify-center" href="/estimate?work=Hurricane%20shutters">Hurricane shutters</Card>
-    <Card class="!w-[240px] flex justify-center" href="/estimate?work=Seamless%20gutters">Seamless gutters</Card>
+    <Card class="!w-[150px] sm:!w-[240px] flex justify-center" href="/estimate?work=Screen%20enclosures"><p class="!text-[14px] md:!text-[20px]">Screen enclosures</p></Card>
+    <Card class="!w-[150px] sm:!w-[240px] flex justify-center" href="/estimate?work=Rescreening"><p class="!text-[15px] md:!text-[20px]">Rescreens/repairs</p></Card>
+    <Card class="!w-[150px] sm:!w-[240px] flex justify-center" href="/estimate?work=Hurricane%20shutters"><p class="!text-[13.5px] md:!text-[20px]">Hurricane shutters</p></Card>
+    <Card class="!w-[150px] sm:!w-[240px] flex justify-center" href="/estimate?work=Seamless%20gutters"><p class="!text-[15px] md:!text-[20px]">Seamless gutters</p></Card>
 </section>
 <section>
 </section>
