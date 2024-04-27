@@ -86,7 +86,7 @@
     }
 
     .btn.primary .btn-text {
-        color:var(--color-text-900);
+        color:var(--color-text-50);
     }
 
     .btn.secondary .btn-text {
@@ -111,7 +111,7 @@
     }
 
     .btn.primary {
-        background-color: var(--color-primary-600);
+        background-color: var(--color-primary-500);
     }
 
     .btn.secondary {

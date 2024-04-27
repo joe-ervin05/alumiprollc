@@ -17,10 +17,10 @@
   
   <section class="flex justify-center py-8 sm:py-24">
     <Card class="max-w-[500px]">
-      <h1 class="theme-h1 text-center">Contact</h1>
+      <h1 class="theme-h1 text-center">Estimates</h1>
       <div class="mb-4">
         <p class="text-center theme-p">
-          Thanks for taking the time to reach out! We Will get back to you as soon as possible.
+            Please fill out this form and we will get in touch for an estimate of the job.
         </p>
       </div>
       <form
@@ -34,19 +34,31 @@
           <Input required placeholder="Your name" name="Name"/>
         </div>
         <div>
+            <label for="Number" class="block theme-p">Phone Number</label>
+            <Input placeholder="(239) 000-0000" name="Number"/>
+          </div>
+        <div>
           <label for="Email" class="block theme-p">Email</label>
           <Input required placeholder="email@example.com" name="Email"/>
         </div>
         <div>
-          <label for="Message" class="block theme-p">Message</label>
-          <TextArea required placeholder="Add any extra details here." name="Message" />
+            <label for="Address" class="block theme-p">Address</label>
+            <Input required placeholder="Your street address" name="Address"/>
+        </div>
+        <div>
+        <label for="Type of work needed" class="block theme-p">Type of work needed</label>
+        <TextArea required placeholder="I need a screen enclosure for my pool." name="Type of work needed" />
+        </div>
+        <div>
+          <label for="Message" class="block theme-p">Other details</label>
+          <TextArea placeholder="Add any extra details here." name="Other details" />
         </div>
         {#if form?.success}
-            <p transition:fade class="theme-p !text-green-500 max-w-[300px] text-center">Thanks for reaching out! We will get back soon.</p>
+            <p transition:fade class="theme-p !text-green-600 max-w-[300px] text-center">Thanks for reaching out! We will get back soon.</p>
         {:else if form?.error}
             <p transition:fade class="theme-p !text-red-500 max-w-[300px] text-center">{form.error}</p>
         {:else}
-            <Button color="primary" bind:loading>Submit</Button>
+            <Button bind:loading color="primary">Submit</Button>
         {/if}
       </form>
     </Card>
