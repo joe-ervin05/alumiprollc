@@ -19,7 +19,7 @@ const variables = {
     rounded: {
         container: '12px',
         input: '12px',
-        button: '9999px'
+        button: '10px'
     }
 }
 
