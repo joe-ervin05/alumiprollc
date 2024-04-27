@@ -51,19 +51,46 @@
     </div>
     {/if}
 </section>
-<section>
-    <Card>Screen enclosures</Card>
-    <Card>Rescreens/repairs</Card>
-    <Card>Hurricane shutters</Card>
-    <Card>Seamless</Card>
+<section class="gap-2 flex flex-wrap justify-center py-8">
+    <Card class="!w-[240px] flex justify-center" href="/estimate?work=Screen%20enclosures">Screen enclosures</Card>
+    <Card class="!w-[240px] flex justify-center" href="/estimate?work=Rescreening">Rescreens/repairs</Card>
+    <Card class="!w-[240px] flex justify-center" href="/estimate?work=Hurricane%20shutters">Hurricane shutters</Card>
+    <Card class="!w-[240px] flex justify-center" href="/estimate?work=Seamless%20gutters">Seamless gutters</Card>
 </section>
 <section>
 </section>
-<section>
-    insulated panels
+<section class="py-8 sm:py-24">
+    <h1 class="theme-h1 text-center mb-8">Screen Enclosures</h1>
+    <div class="flex justify-center flex-wrap mx-4 gap-2">
+        <div class="w-[640px] h-[360px] grid grid-cols-2 gap-2">
+            <img src="enclosure-inside.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
+            <img src="enclosure-outside.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
+            <img src="enclosure-above.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
+            <img src="enclosure-4.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
+        </div>
+        <img src="enclosure-above.webp" class="w-fit h-fit rounded-md shadow-md" alt="">
+        <img src="enclosure-5.webp" class="w-fit h-fit rounded-md shadow-md" alt="">        
+        <div class="w-[640px] h-[360px] grid grid-cols-2 gap-2">
+            <img src="enclosure-7.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
+            <img src="enclosure-8.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
+            <img src="enclosure-9.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
+            <img src="enclosure-10.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
+        </div>
+    </div>
 </section>
-<section>
-    front entries
+<section class="py-8 sm:py-24">
+    <h1 class="theme-h1 text-center mb-8">Front Entries</h1>
+    <div class="flex justify-center flex-wrap mx-4 gap-2">
+        <img src="entry1.webp" class="rounded-md shadow-md w-[318px]" alt="">
+        <img src="entry2.webp" class="rounded-md shadow-md w-[318px]" alt="">
+        <img src="entry3.webp" class="rounded-md shadow-md w-[318px]" alt="">
+        <img src="entry4.webp" class="rounded-md shadow-md w-[318px]" alt="">
+    </div>
+</section>
+<section class="py-8 sm:py-24">
+    <h1 class="theme-h1 text-center mb-8">Railings</h1>
+    <div class="flex justify-center flex-wrap mx-4 gap-2">
+    </div>
 </section>
 
 <style>

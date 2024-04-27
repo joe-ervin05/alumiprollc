@@ -5,8 +5,15 @@
     import Card from "$lib/components/Card.svelte";
     import TextArea from "$lib/components/TextArea.svelte";
 	import { fade } from "svelte/transition";
+	import { page } from "$app/stores";
   
     let loading = false;
+
+    let work = "";
+
+    if ($page.url.searchParams.has("work")) {
+        work = $page.url.searchParams.get("work") as string
+    }
   
     export let form : { success : boolean, error : string };
   
@@ -47,7 +54,7 @@
         </div>
         <div>
         <label for="Type of work needed" class="block theme-p">Type of work needed</label>
-        <TextArea required placeholder="I need a screen enclosure for my pool." name="Type of work needed" />
+        <TextArea bind:value={work} required placeholder="I need a screen enclosure for my pool." name="Type of work needed" />
         </div>
         <div>
           <label for="Message" class="block theme-p">Other details</label>
