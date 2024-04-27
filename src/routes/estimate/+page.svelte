@@ -23,7 +23,7 @@
 </script>
   
   <section class="flex justify-center py-8 sm:py-24">
-    <Card class="max-w-[500px]">
+    <Card class="max-w-[500px] mx-4">
       <h1 class="theme-h1 text-center">Estimates</h1>
       <div class="mb-4">
         <p class="text-center theme-p">
