@@ -60,32 +60,57 @@
 <section>
 </section>
 <section class="py-8 sm:py-24">
-    <h1 class="theme-h1 text-center mb-8">Screen Enclosures</h1>
     <div class="flex justify-center flex-wrap mx-4 gap-2">
-        <div class="w-[640px] h-[360px] grid grid-cols-2 gap-2">
-            <img src="enclosure-inside.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
-            <img src="enclosure-outside.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
-            <img src="enclosure-above.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
-            <img src="enclosure-4.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
+        <div class="grid grid-cols-2 gap-2 justify-center">
+            <img src="screen-1.webp" class="rounded-md shadow-md" alt="">
+            <img src="screen-2.webp" class="rounded-md shadow-md" alt="">
+            <img src="screen-3.webp" class="rounded-md shadow-md" alt="">
+            <img src="screen-4.webp" class="rounded-md shadow-md" alt="">
         </div>
-        <img src="enclosure-above.webp" class="w-fit h-fit rounded-md shadow-md" alt="">
-        <img src="enclosure-5.webp" class="w-fit h-fit rounded-md shadow-md" alt="">        
-        <div class="w-[640px] h-[360px] grid grid-cols-2 gap-2">
-            <img src="enclosure-7.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
-            <img src="enclosure-8.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
-            <img src="enclosure-9.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
-            <img src="enclosure-10.webp" class="w-[316px] h-[176px] rounded-md shadow-md" alt="">
+        <img src="screen-5.webp" class="rounded-md shadow-md" alt="">
+        <img src="screen-6.webp" class="rounded-md shadow-md" alt="">        
+        <div class="grid grid-cols-2 gap-2">
+            <img src="screen-7.webp" class="rounded-md shadow-md" alt="">
+            <img src="screen-8.webp" class="rounded-md shadow-md" alt="">
+            <img src="screen-9.webp" class="rounded-md shadow-md" alt="">
+            <img src="screen-10.webp" class="rounded-md shadow-md" alt="">
+        </div>
+    </div>
+</section>
+<section class="pt-8 sm:pt-24 pb-4 sm:pb-8">
+    <div class="flex justify-center flex-wrap mx-4 gap-2">
+        <div class="flex gap-2">
+            <img src="entry1.webp" class="rounded-md shadow-md" alt="">
+            <img src="entry2.webp" class="rounded-md shadow-md" alt="">
+        </div>
+        <img src="railing-1.webp" class="rounded-md shadow-md" alt="">
+        <img src="railing-2.webp" class="rounded-md shadow-md" alt="">
+        <div class="flex gap-2">
+            <img src="entry3.webp" class="rounded-md shadow-md" alt="">
+            <img src="entry4.webp" class="rounded-md shadow-md" alt="">    
         </div>
     </div>
 </section>
 <section class="py-8 sm:py-24">
-    <h1 class="theme-h1 text-center mb-8">Front Entries</h1>
     <div class="flex justify-center flex-wrap mx-4 gap-2">
-        <img src="entry1.webp" class="rounded-md shadow-md w-[318px]" alt="">
-        <img src="entry2.webp" class="rounded-md shadow-md w-[318px]" alt="">
-        <img src="entry3.webp" class="rounded-md shadow-md w-[318px]" alt="">
-        <img src="entry4.webp" class="rounded-md shadow-md w-[318px]" alt="">
+        <div class="grid grid-cols-2 gap-2 justify-center">
+            <img src="panel-4.webp" class="rounded-md shadow-md" alt="">
+            <img src="panel-9.webp" class="rounded-md shadow-md" alt="">
+            <img src="panel-2.webp" class="rounded-md shadow-md" alt="">
+            <img src="panel-8.webp" class="rounded-md shadow-md" alt="">
+        </div>
+        <img src="panel-5.webp" class="rounded-md shadow-md" alt="">
+        <img src="panel-6.webp" class="rounded-md shadow-md" alt="">        
+        <div class="grid grid-cols-2 gap-2">
+            <img src="panel-7.webp" class="rounded-md shadow-md" alt="">
+            <img src="panel-1.webp" class="rounded-md shadow-md" alt="">
+            <img src="panel-3.webp" class="rounded-md shadow-md" alt="">
+            <img src="panel-10.webp" class="rounded-md shadow-md" alt="">
+        </div>
     </div>
+</section>
+<section class="py-4 sm:py-8 flex justify-center">
+    <Button color="secondary">Get an estimate</Button>
 </section>
 
 <style>

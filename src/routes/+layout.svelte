@@ -28,7 +28,7 @@
     <link rel="icon" href={config.logoUrl} />
     <title>{config.shortName}</title>
 </svelte:head>
-<div class="min-h-screen content" style={getThemeCss(config.theme)}>
+<div class="min-h-[101vh] content" style={getThemeCss(config.theme)}>
     <Navbar/>
         <slot/>
     <Footer />
