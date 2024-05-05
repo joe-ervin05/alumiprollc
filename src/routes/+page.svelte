@@ -79,13 +79,13 @@
 </section>
 <section class="pt-8 sm:pt-24 pb-4 sm:pb-8">
     <div class="flex justify-center flex-wrap mx-4 gap-2">
-        <div class="flex gap-2">
+        <div class="flex flex-wrap gap-2">
             <img src="entry1.webp" class="rounded-md shadow-md" alt="">
             <img src="entry2.webp" class="rounded-md shadow-md" alt="">
         </div>
         <img src="railing-1.webp" class="rounded-md shadow-md" alt="">
         <img src="railing-2.webp" class="rounded-md shadow-md" alt="">
-        <div class="flex gap-2">
+        <div class="flex flex-wrap gap-2">
             <img src="entry3.webp" class="rounded-md shadow-md" alt="">
             <img src="entry4.webp" class="rounded-md shadow-md" alt="">    
         </div>
