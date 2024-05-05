@@ -33,10 +33,10 @@
         {/if}
     </div>
     {#if ready}
-    <div class="z-20 flex flex-col py-8 sm:py-0 mx-4 items-center absolute top-[calc(50%-148px)] bottom-0 right-0 left-0">
-        <h1><span transition:fade class="text-[44px] font-bold leading-relaxed !text-slate-50">Alumi Pro LLC</span></h1>
-        <h2 class="theme-h2 !text-slate-200 mt-4">Professional Aluminum Contractors</h2>
-        <h3 transition:fade={{ delay: 600 }} class="text-[20px] sm:text-[22px] pb-2 !text-slate-300 max-w-[500px] mt-4">Screen enclosures, rescreens/repairs, hurricane shutters, seamless gutters.</h3>
+    <div class="z-20 flex flex-col py-8 sm:py-0 mx-4 items-center absolute top-2 2xs:top-4 xs:top-[calc(50%-148px)] bottom-0 right-0 left-0">
+        <h1><span transition:fade class="text-[36px] xs:text-[40px] sm:text-[44px] font-bold leading-relaxed !text-slate-50">Alumi Pro LLC</span></h1>
+        <h2 class="text-lg xs:text-xl sm:text-[22px] font-bold !text-slate-200">Professional Aluminum Contractors</h2>
+        <h3 transition:fade={{ delay: 600 }} class="text-[15px] xs:text-[18px] sm:text-[22px] pb-2 !text-slate-300 max-w-[500px] mt-4">Screen enclosures, rescreens/repairs, hurricane shutters, seamless gutters.</h3>
         <Button color="secondary" href="/estimate" class="mt-4">Get a free estimate</Button>
         <div class="flex gap-2 mt-2">
             <Button size="sm" href="tel:2396878658" class="!w-[140px] !h-full py-1">
