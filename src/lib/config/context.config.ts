@@ -13,13 +13,13 @@ const variables = {
         accent: colors.mountain
     },
     font: {
-        header: 'Ubuntu',
-        text: 'Ubuntu',
+        header: 'Montserrat',
+        text: 'Montserrat',
     },
     rounded: {
-        container: '12px',
-        input: '12px',
-        button: '10px'
+        container: '8px',
+        input: '6px',
+        button: '4px'
     }
 }
 
